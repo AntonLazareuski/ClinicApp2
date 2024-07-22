@@ -1,7 +1,8 @@
 ﻿using ClickHouse.Client;
 using ClickHouse.Client.ADO;
+using ClinicApp2.Models;
 using ClinicApp2.Services.Interfaces;
-using System.Data.SqlClient;
+using System.Data;
 
 namespace ClinicApp2.Services
 {
@@ -20,22 +21,15 @@ namespace ClinicApp2.Services
             {
                 await connection.OpenAsync();
 
-                var selectColumns = string.Join(",", columns);
-
-                if (string.IsNullOrEmpty(selectColumns))
-                    selectColumns = "*";
-
+                var selectColumns = columns?.Length > 0 ? string.Join(",", columns) : "*";
                 var commandText = $"SELECT {selectColumns} FROM Clinics WHERE Clinic_id = {idClinic}";
-                SqlCommand command = new SqlCommand();
+
+                var command = connection.CreateCommand();
                 command.CommandText = commandText;
- 
-                var parameter = command.CreateParameter();
-                parameter.Value = idClinic;
-                command.Parameters.Add(parameter);
 
                 using (var reader = command.ExecuteReader())
                 {
-                    if (reader.Read())
+                    while (reader.Read())
                     {
                         var result = new Dictionary<string, object>();
 
@@ -54,47 +48,37 @@ namespace ClinicApp2.Services
             return null;
         }
 
-       /* public object GetClinics(int page, string[] columns)
+        public async Task<List<ClinicModel>> GetClinics(int page, int pageSize, string[] columns)
         {
             using (var connection = new ClickHouseConnection(_connectionString))
             {
-                var selectColumns = string.Join(",", columns);
+                await connection.OpenAsync();
 
-                if (string.IsNullOrEmpty(selectColumns))
-                    selectColumns = "*";
+                var selectColumns = columns?.Length > 0 ? string.Join(",", columns) : "*";
+                var offset = (page - 1) * pageSize;
+                var commandText = $"SELECT {selectColumns} FROM Clinics LIMIT {pageSize} OFFSET {offset}";
 
-                var commandText = $"SELECT {selectColumns} FROM Clinics";
                 var command = connection.CreateCommand();
                 command.CommandText = commandText;
 
                 using (var reader = command.ExecuteReader())
                 {
-                    var clinics = new List<Dictionary<string, object>>();
+                    var clinics = new List<ClinicModel>();
 
                     while (reader.Read())
                     {
-                        var clinic = new Dictionary<string, object>();
-
-                        for (var i = 0; i < reader.FieldCount; i++)
+                        var clinic = new ClinicModel
                         {
-                            var columnName = reader.GetName(i);
-                            var columnValue = reader.IsDBNull(i) ? null : reader.GetValue(i);
-                            clinic[columnName] = columnValue;
-                        }
+                            Clinic_id = reader.GetInt32("Clinic_id"),
+                            Clinic_name = reader.GetString("Clinic_name")
+                        };
 
                         clinics.Add(clinic);
                     }
 
-                    var pageCount = Math.Ceiling((double)clinics.Count / 10);
-                    {
-                        Page = page,
-                        Pages = pageCount,
-                        Clinics = clinics.Skip((page - 1) * 10).Take(10)
-                    };
-
-                    return result;
+                    return clinics;
                 }
             }
-        } */     
+        }
     }
 }

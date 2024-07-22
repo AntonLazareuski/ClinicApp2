@@ -1,5 +1,6 @@
 ﻿using ClinicApp2.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace ClinicApp2.Controllers
 {
@@ -15,28 +16,28 @@ namespace ClinicApp2.Controllers
             _clinicsService = clinicsService;
         }
 
-        [HttpGet]
-        public IActionResult GetClinic([FromQuery] int idClinic, [FromQuery] string[] columns)
+        [HttpGet("{idClinic}")]
+        public async Task<IActionResult> GetClinic(int idClinic, [FromQuery] string[] columns)
         {
-            var clinicData = _clinicsService.GetClinic(idClinic, columns);
+            var clinicData = await _clinicsService.GetClinic(idClinic, columns);
             if (clinicData == null)
             {
                 return NotFound();
             }
 
-            return Ok(clinicData);
+            return Ok(JsonConvert.SerializeObject(clinicData));
         }
 
-       /* [HttpGet]
-        public IActionResult GetClinics([FromQuery] int page, [FromQuery] string[] columns)
+        [HttpGet]
+        public async Task<IActionResult> GetClinics([FromQuery] int page, [FromQuery] int pageSize, [FromQuery] string[] columns)
         {
-            var clinicListData = _clinicsService.GetClinics(page, columns);
+            var clinicListData = await _clinicsService.GetClinics(page, pageSize, columns);
             if (clinicListData == null)
             {
                 return NotFound();
             }
 
-            return Ok(clinicListData);
-        }*/
+            return Ok(JsonConvert.SerializeObject(clinicListData)); ;
+        }
     }
 }

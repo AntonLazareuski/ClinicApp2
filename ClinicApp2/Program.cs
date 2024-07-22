@@ -15,7 +15,7 @@ builder.Services.AddScoped<IClinicsService, ClinicsService>();
 
 var configuration = builder.Configuration;
 var connectionString = configuration.GetConnectionString("ClickHouseConnection");
-builder.Services.AddSingleton<ClickHouseConnection>(_ => new ClickHouseConnection(connectionString));
+builder.Services.AddSingleton(new ClickHouseConnection(connectionString));
 
 var app = builder.Build();
 

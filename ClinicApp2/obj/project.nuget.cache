@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nrVcjqlVZFgCMIqjx62dZz20t/JAkCnZ+6+ZQtoWWXKg8xhLDVFiRu9ptdh+HNxbPDQcbqFNLfe46lVcYtKH1A==",
+  "dgSpecHash": "IgxfAVjSE8/DLMY4w5FZHZp9fvWTdxpzWpvVJIkYxkp5sYkrl/p1+fdthesDra1CwhzqxXj4x+vgn9muWJ/62w==",
   "success": true,
   "projectFilePath": "D:\\study\\ClinicApp2\\ClinicApp2\\ClinicApp2.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\nodatime\\3.1.11\\nodatime.3.1.11.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

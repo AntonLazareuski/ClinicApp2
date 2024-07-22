@@ -44,3 +44,4 @@ D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
 D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
 D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Newtonsoft.Json.dll
