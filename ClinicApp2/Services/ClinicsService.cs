@@ -1,5 +1,4 @@
-﻿using ClickHouse.Client;
-using ClickHouse.Client.ADO;
+﻿using ClickHouse.Client.ADO;
 using ClinicApp2.Models;
 using ClinicApp2.Services.Interfaces;
 using System.Data;
@@ -8,10 +7,12 @@ namespace ClinicApp2.Services
 {
     public class ClinicsService: IClinicsService
     {
+        private readonly ILogger _logger;
         private readonly string _connectionString;
 
-        public ClinicsService(IConfiguration configuration)
+        public ClinicsService(ILogger<ClinicsService> logger, IConfiguration configuration)
         {
+            _logger = logger;   
             _connectionString = configuration.GetConnectionString("ClickHouseConnection");
         }
 
@@ -20,6 +21,8 @@ namespace ClinicApp2.Services
             using (var connection = new ClickHouseConnection(_connectionString))
             {
                 await connection.OpenAsync();
+
+                _logger.LogInformation("Getting clinic with ID: {Id}", idClinic);
 
                 var selectColumns = columns?.Length > 0 ? string.Join(",", columns) : "*";
                 var commandText = $"SELECT {selectColumns} FROM Clinics WHERE Clinic_id = {idClinic}";

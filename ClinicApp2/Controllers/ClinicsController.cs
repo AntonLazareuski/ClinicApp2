@@ -9,23 +9,33 @@ namespace ClinicApp2.Controllers
  
     public class ClinicsController: ControllerBase  
     {
+        private readonly ILogger<ClinicsController> _logger;
         private readonly IClinicsService _clinicsService;
 
-        public ClinicsController(IClinicsService clinicsService)
+        public ClinicsController(ILogger<ClinicsController> logger,IClinicsService clinicsService)
         {
+            _logger = logger;   
             _clinicsService = clinicsService;
         }
 
         [HttpGet("{idClinic}")]
         public async Task<IActionResult> GetClinic(int idClinic, [FromQuery] string[] columns)
         {
-            var clinicData = await _clinicsService.GetClinic(idClinic, columns);
-            if (clinicData == null)
+            _logger.LogInformation("Getting clinic");
+
+            try
             {
-                return NotFound();
+                var clinicData = await _clinicsService.GetClinic(idClinic, columns);
+                
+                return Ok(JsonConvert.SerializeObject(clinicData));
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while getting the list of clinics");
+                return StatusCode(500, "An error occurred");
             }
 
-            return Ok(JsonConvert.SerializeObject(clinicData));
+            
         }
 
         [HttpGet]
