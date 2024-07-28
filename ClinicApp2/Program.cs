@@ -3,6 +3,9 @@ using ClinicApp2.Services.Interfaces;
 using Serilog;
 using Serilog.Events;
 using ClickHouse.Client.ADO;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,11 +22,24 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSerilog();
 
+builder.Services.AddScoped<ITokenService, TokenService>();
+
 builder.Services.AddScoped<IClinicsService, ClinicsService>();
 
 var configuration = builder.Configuration;
 var connectionString = configuration.GetConnectionString("ClickHouseConnection");
 builder.Services.AddSingleton(new ClickHouseConnection(connectionString));
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["TokenKey"])),
+        ValidateIssuer = false,
+        ValidateAudience = false,
+    };
+});
 
 var app = builder.Build();
 
@@ -35,6 +51,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
