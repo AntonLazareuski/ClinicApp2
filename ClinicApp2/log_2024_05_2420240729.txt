@@ -1,0 +1,95 @@
+2024-07-29 11:16:53.557 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-29 11:16:54.046 +03:00 [INF] Now listening on: https://localhost:7022
+2024-07-29 11:16:54.046 +03:00 [INF] Now listening on: http://localhost:5022
+2024-07-29 11:16:54.051 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-29 11:16:54.052 +03:00 [INF] Hosting environment: Development
+2024-07-29 11:16:54.052 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-07-29 11:16:54.904 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger - -
+2024-07-29 11:16:55.015 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger - - - 301 0 - 115.4273ms
+2024-07-29 11:16:55.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-07-29 11:16:55.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 295.0736ms
+2024-07-29 11:16:55.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-07-29 11:16:55.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/swagger-ui.css - -
+2024-07-29 11:16:55.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/swagger-ui-standalone-preset.js - -
+2024-07-29 11:16:55.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/swagger-ui-bundle.js - -
+2024-07-29 11:16:55.316 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-07-29 11:16:55.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 9.0739ms
+2024-07-29 11:16:55.389 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-29 11:16:55.389 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/swagger-ui.css - - - 200 143632 text/css 74.3738ms
+2024-07-29 11:16:55.401 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-07-29 11:16:55.405 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 90.2583ms
+2024-07-29 11:16:55.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 99.7364ms
+2024-07-29 11:16:55.431 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-07-29 11:16:55.432 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 117.0567ms
+2024-07-29 11:16:55.556 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-07-29 11:16:55.656 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.9192ms
+2024-07-29 11:17:08.592 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Clinics?page=1&pageSize=8 - -
+2024-07-29 11:17:22.154 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in D:\study\ClinicApp2\ClinicApp2\Program.cs:line 35
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-29 11:17:22.252 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Clinics?page=1&pageSize=8 - - - 500 - text/plain;+charset=utf-8 13660.0874ms
+2024-07-29 11:17:51.172 +03:00 [INF] Now listening on: https://localhost:7022
+2024-07-29 11:17:51.215 +03:00 [INF] Now listening on: http://localhost:5022
+2024-07-29 11:17:51.222 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-29 11:17:51.223 +03:00 [INF] Hosting environment: Development
+2024-07-29 11:17:51.223 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-07-29 11:17:51.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-07-29 11:17:52.210 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 442.4264ms
+2024-07-29 11:17:52.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-07-29 11:17:52.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-07-29 11:17:52.226 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 14.3650ms
+2024-07-29 11:17:52.244 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.7980ms
+2024-07-29 11:17:52.385 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-07-29 11:17:52.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.2865ms
+2024-07-29 11:18:00.758 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Clinics?page=1&pageSize=8 - -
+2024-07-29 11:18:00.763 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.ClinicsController.GetClinics (ClinicApp2)'
+2024-07-29 11:18:00.805 +03:00 [INF] Route matched with {action = "GetClinics", controller = "Clinics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetClinics(Int32, Int32, System.String[]) on controller ClinicApp2.Controllers.ClinicsController (ClinicApp2).
+2024-07-29 11:18:01.581 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-07-29 11:18:01.586 +03:00 [INF] Executed action ClinicApp2.Controllers.ClinicsController.GetClinics (ClinicApp2) in 776.5189ms
+2024-07-29 11:18:01.587 +03:00 [INF] Executed endpoint 'ClinicApp2.Controllers.ClinicsController.GetClinics (ClinicApp2)'
+2024-07-29 11:18:01.588 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Clinics?page=1&pageSize=8 - - - 200 - text/plain;+charset=utf-8 830.3741ms
+2024-07-29 11:23:46.457 +03:00 [INF] Now listening on: https://localhost:7022
+2024-07-29 11:23:46.495 +03:00 [INF] Now listening on: http://localhost:5022
+2024-07-29 11:23:46.502 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-29 11:23:46.503 +03:00 [INF] Hosting environment: Development
+2024-07-29 11:23:46.503 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-07-29 11:23:47.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-07-29 11:23:47.500 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 307.7580ms
+2024-07-29 11:23:47.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-07-29 11:23:47.516 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-07-29 11:23:47.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.4972ms
+2024-07-29 11:23:47.568 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.8503ms
+2024-07-29 11:23:47.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-07-29 11:23:47.698 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.8613ms
+2024-07-29 11:23:56.944 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Clinics?page=1&pageSize=2 - -
+2024-07-29 11:23:56.949 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.ClinicsController.GetClinics (ClinicApp2)'
+2024-07-29 11:23:56.988 +03:00 [INF] Route matched with {action = "GetClinics", controller = "Clinics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetClinics(Int32, Int32, System.String[]) on controller ClinicApp2.Controllers.ClinicsController (ClinicApp2).
+2024-07-29 11:23:59.087 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-07-29 11:23:59.093 +03:00 [INF] Executed action ClinicApp2.Controllers.ClinicsController.GetClinics (ClinicApp2) in 2099.6054ms
+2024-07-29 11:23:59.094 +03:00 [INF] Executed endpoint 'ClinicApp2.Controllers.ClinicsController.GetClinics (ClinicApp2)'
+2024-07-29 11:23:59.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Clinics?page=1&pageSize=2 - - - 200 - text/plain;+charset=utf-8 2150.3907ms
+2024-07-29 11:24:17.278 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Clinics?page=1&pageSize=2&columns=Clinic_name - -
+2024-07-29 11:24:17.278 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.ClinicsController.GetClinics (ClinicApp2)'
+2024-07-29 11:24:17.279 +03:00 [INF] Route matched with {action = "GetClinics", controller = "Clinics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetClinics(Int32, Int32, System.String[]) on controller ClinicApp2.Controllers.ClinicsController (ClinicApp2).
+2024-07-29 11:24:17.386 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-07-29 11:24:17.386 +03:00 [INF] Executed action ClinicApp2.Controllers.ClinicsController.GetClinics (ClinicApp2) in 107.1426ms
+2024-07-29 11:24:17.386 +03:00 [INF] Executed endpoint 'ClinicApp2.Controllers.ClinicsController.GetClinics (ClinicApp2)'
+2024-07-29 11:24:17.386 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Clinics?page=1&pageSize=2&columns=Clinic_name - - - 200 - text/plain;+charset=utf-8 108.4823ms

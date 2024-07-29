@@ -60,3 +60,11 @@ D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Serilog.Settings.Configuration.d
 D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\study\ClinicApp2\ClinicApp2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

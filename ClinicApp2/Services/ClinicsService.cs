@@ -1,5 +1,4 @@
 ﻿using ClickHouse.Client.ADO;
-using ClinicApp2.Models;
 using ClinicApp2.Services.Interfaces;
 using System.Data;
 
@@ -51,7 +50,7 @@ namespace ClinicApp2.Services
             return null;
         }
 
-        public async Task<List<ClinicModel>> GetClinics(int page, int pageSize, string[] columns)
+        public async Task<List<Dictionary<string, object>>> GetClinics(int page, int pageSize, string[] columns)
         {
             using (var connection = new ClickHouseConnection(_connectionString))
             {
@@ -66,15 +65,18 @@ namespace ClinicApp2.Services
 
                 using (var reader = command.ExecuteReader())
                 {
-                    var clinics = new List<ClinicModel>();
+                    var clinics = new List<Dictionary<string, object>>();
 
                     while (reader.Read())
                     {
-                        var clinic = new ClinicModel
+                        var clinic = new Dictionary<string, object>();
+
+                        for (var i = 0; i < reader.FieldCount; i++)
                         {
-                            Clinic_id = reader.GetInt32("Clinic_id"),
-                            Clinic_name = reader.GetString("Clinic_name")
-                        };
+                            var columnName = reader.GetName(i);
+                            var columnValue = reader.IsDBNull(i) ? null : reader.GetValue(i);
+                            clinic[columnName] = columnValue;
+                        }
 
                         clinics.Add(clinic);
                     }
