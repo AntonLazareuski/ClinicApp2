@@ -1,4 +1,6 @@
-﻿using ClinicApp2.Services.Interfaces;
+﻿using ClinicApp2.Entities;
+using ClinicApp2.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -14,31 +16,28 @@ namespace ClinicApp2.Controllers
 
         public ClinicsController(ILogger<ClinicsController> logger,IClinicsService clinicsService)
         {
-            _logger = logger;   
-            _clinicsService = clinicsService;
+            _logger = logger;
+            _clinicsService = clinicsService;  
         }
 
         [HttpGet("{idClinic}")]
+        [Authorize]
         public async Task<IActionResult> GetClinic(int idClinic, [FromQuery] string[] columns)
         {
             _logger.LogInformation("Getting clinic");
-
-            try
+         
+            var clinicData = await _clinicsService.GetClinic(idClinic, columns);
+            if (clinicData == null)
             {
-                var clinicData = await _clinicsService.GetClinic(idClinic, columns);
-                
-                return Ok(JsonConvert.SerializeObject(clinicData));
-            }
-            catch(Exception ex)
-            {
-                _logger.LogError(ex, "An error occurred while getting the list of clinics");
-                return StatusCode(500, "An error occurred");
+                return NotFound();
             }
 
-            
+            return Ok(JsonConvert.SerializeObject(clinicData));
+                      
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetClinics([FromQuery] int page, [FromQuery] int pageSize, [FromQuery] string[] columns)
         {
             var clinicListData = await _clinicsService.GetClinics(page, pageSize, columns);

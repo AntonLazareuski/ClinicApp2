@@ -1,40 +1,34 @@
-﻿using ClinicApp2.Entities;
-using ClinicApp2.Services.Interfaces;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
+﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using ClinicApp2.Entities;
+using Microsoft.IdentityModel.Tokens;
 
-namespace ClinicApp2.Services
+public class TokenService
 {
-    public class TokenService: ITokenService
+    private readonly IConfiguration _configuration;
+
+    public TokenService(IConfiguration configuration)
     {
-        private readonly SymmetricSecurityKey key;
-        public TokenService(IConfiguration config)
+        _configuration = configuration;
+    }
+
+    public string CreateToken(AppUser user)
+    {
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var key = Encoding.ASCII.GetBytes(_configuration["ApiSettings:SecretKey"]);
+
+        var tokenDescriptor = new SecurityTokenDescriptor
         {
-            this.key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
-        }
-        public string CreateToken(AppUser user)
-        {
-            var claims = new List<Claim>
+            Subject = new ClaimsIdentity(new Claim[]
             {
-                new Claim(JwtRegisteredClaimNames.NameId, user.UserName)
-            };
+                new Claim(ClaimTypes.Name, user.UserName)
+            }),
+            Expires = DateTime.UtcNow.AddHours(1),
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+        };
 
-            var creds = new SigningCredentials(this.key, SecurityAlgorithms.HmacSha256Signature);
-
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.Now.AddDays(7),
-                SigningCredentials = creds
-            };
-
-            var tokenHandler = new JwtSecurityTokenHandler();
-
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-
-            return tokenHandler.WriteToken(token);
-        }
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+        return tokenHandler.WriteToken(token);
     }
 }

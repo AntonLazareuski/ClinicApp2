@@ -1,0 +1,571 @@
+2024-08-03 12:01:28.989 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:01:29.599 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 12:01:29.600 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 12:01:29.603 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:01:29.603 +03:00 [INF] Hosting environment: Development
+2024-08-03 12:01:29.603 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 12:01:29.904 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger - -
+2024-08-03 12:01:29.989 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger - - - 301 0 - 89.0323ms
+2024-08-03 12:01:29.991 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 12:01:30.210 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 218.0349ms
+2024-08-03 12:01:30.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/swagger-ui-standalone-preset.js - -
+2024-08-03 12:01:30.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 12:01:30.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/swagger-ui-bundle.js - -
+2024-08-03 12:01:30.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/swagger-ui.css - -
+2024-08-03 12:01:30.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 12:01:30.218 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.8675ms
+2024-08-03 12:01:30.256 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-03 12:01:30.256 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-03 12:01:30.266 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 51.7927ms
+2024-08-03 12:01:30.266 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/swagger-ui.css - - - 200 143632 text/css 51.5751ms
+2024-08-03 12:01:30.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.7156ms
+2024-08-03 12:01:30.277 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-03 12:01:30.277 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 62.0578ms
+2024-08-03 12:01:30.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 12:01:30.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/favicon-32x32.png - -
+2024-08-03 12:01:30.420 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-08-03 12:01:30.420 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/favicon-32x32.png - - - 200 628 image/png 0.5234ms
+2024-08-03 12:01:30.484 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.4358ms
+2024-08-03 12:07:31.547 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:07:31.855 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 12:07:31.855 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 12:07:31.862 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:07:31.862 +03:00 [INF] Hosting environment: Development
+2024-08-03 12:07:31.862 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 12:07:32.558 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 12:07:32.845 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 290.5808ms
+2024-08-03 12:07:32.861 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 12:07:32.861 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 12:07:32.864 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.6882ms
+2024-08-03 12:07:32.878 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.1750ms
+2024-08-03 12:07:33.011 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 12:07:33.086 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.1595ms
+2024-08-03 12:15:49.968 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:15:50.378 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 12:15:50.378 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 12:15:50.383 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:15:50.384 +03:00 [INF] Hosting environment: Development
+2024-08-03 12:15:50.388 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 12:15:50.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 12:15:50.978 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 280.5142ms
+2024-08-03 12:15:50.989 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 12:15:50.989 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 12:15:50.992 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.6611ms
+2024-08-03 12:15:51.006 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.4121ms
+2024-08-03 12:15:51.066 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 12:15:51.141 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.6559ms
+2024-08-03 12:16:21.730 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Clinics/82 - -
+2024-08-03 12:16:33.042 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in D:\study\ClinicApp2\ClinicApp2\Program.cs:line 64
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 12:16:33.144 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Clinics/82 - - - 500 - text/plain;+charset=utf-8 11413.8103ms
+2024-08-03 12:18:50.076 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:18:50.409 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 12:18:50.409 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 12:18:50.413 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:18:50.413 +03:00 [INF] Hosting environment: Development
+2024-08-03 12:18:50.413 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 12:18:50.902 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 12:18:51.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 286.6749ms
+2024-08-03 12:18:51.190 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 12:18:51.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 12:18:51.197 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 7.1930ms
+2024-08-03 12:18:51.218 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.2513ms
+2024-08-03 12:18:51.272 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 12:18:51.344 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 71.4433ms
+2024-08-03 12:19:00.741 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Clinics/82 - -
+2024-08-03 12:19:09.885 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in D:\study\ClinicApp2\ClinicApp2\Program.cs:line 64
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 12:19:09.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Clinics/82 - - - 500 - text/plain;+charset=utf-8 9182.7951ms
+2024-08-03 12:31:06.851 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:31:07.175 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 12:31:07.175 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 12:31:07.178 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:31:07.179 +03:00 [INF] Hosting environment: Development
+2024-08-03 12:31:07.179 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 12:31:07.834 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 12:31:08.120 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 287.9754ms
+2024-08-03 12:31:08.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 12:31:08.132 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 12:31:08.135 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 10.2666ms
+2024-08-03 12:31:08.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.4177ms
+2024-08-03 12:31:08.216 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 12:31:08.292 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.5390ms
+2024-08-03 12:31:17.650 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Clinics/login - 0
+2024-08-03 12:31:30.591 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in D:\study\ClinicApp2\ClinicApp2\Program.cs:line 64
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 12:31:30.634 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7022/api/Clinics/login - 0 - 500 - text/plain;+charset=utf-8 12983.7998ms
+2024-08-03 12:34:44.296 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:34:44.665 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 12:34:44.665 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 12:34:44.669 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:34:44.669 +03:00 [INF] Hosting environment: Development
+2024-08-03 12:34:44.669 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 12:34:45.232 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 12:34:45.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 275.3622ms
+2024-08-03 12:34:45.515 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 12:34:45.518 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 12:34:45.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.1807ms
+2024-08-03 12:34:45.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.1858ms
+2024-08-03 12:34:45.588 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 12:34:45.669 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.5550ms
+2024-08-03 12:34:51.736 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Clinics/login - 0
+2024-08-03 12:34:57.748 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'TokenKey is missing or empty in the configuration.')
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in D:\study\ClinicApp2\ClinicApp2\Program.cs:line 67
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 12:34:57.790 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7022/api/Clinics/login - 0 - 500 - text/plain;+charset=utf-8 6054.6620ms
+2024-08-03 12:35:39.996 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Clinics/login - 0
+2024-08-03 12:35:40.003 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'TokenKey is missing or empty in the configuration.')
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in D:\study\ClinicApp2\ClinicApp2\Program.cs:line 67
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 12:35:40.004 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7022/api/Clinics/login - 0 - 500 - text/plain;+charset=utf-8 7.7992ms
+2024-08-03 12:35:42.940 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Clinics/login - 0
+2024-08-03 12:35:42.942 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'TokenKey is missing or empty in the configuration.')
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in D:\study\ClinicApp2\ClinicApp2\Program.cs:line 67
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 12:35:42.945 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7022/api/Clinics/login - 0 - 500 - text/plain;+charset=utf-8 5.2034ms
+2024-08-03 12:35:43.471 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Clinics/login - 0
+2024-08-03 12:35:43.472 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'TokenKey is missing or empty in the configuration.')
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in D:\study\ClinicApp2\ClinicApp2\Program.cs:line 67
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 12:35:43.473 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7022/api/Clinics/login - 0 - 500 - text/plain;+charset=utf-8 2.2560ms
+2024-08-03 12:35:43.848 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Clinics/login - 0
+2024-08-03 12:35:43.849 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'TokenKey is missing or empty in the configuration.')
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in D:\study\ClinicApp2\ClinicApp2\Program.cs:line 67
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 12:35:43.850 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7022/api/Clinics/login - 0 - 500 - text/plain;+charset=utf-8 2.3363ms
+2024-08-03 12:35:52.653 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Clinics/82 - -
+2024-08-03 12:35:52.663 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'TokenKey is missing or empty in the configuration.')
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(JwtBearerOptions options) in D:\study\ClinicApp2\ClinicApp2\Program.cs:line 67
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 12:35:52.664 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Clinics/82 - - - 500 - text/plain;+charset=utf-8 11.2800ms
+2024-08-03 12:46:32.749 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:46:33.006 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 12:46:33.006 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 12:46:33.010 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:46:33.010 +03:00 [INF] Hosting environment: Development
+2024-08-03 12:46:33.010 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 12:46:33.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 12:46:34.116 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 443.9402ms
+2024-08-03 12:46:34.146 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 12:46:34.146 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 12:46:34.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 4.6673ms
+2024-08-03 12:46:34.251 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.1981ms
+2024-08-03 12:46:34.304 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 12:46:34.406 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.9319ms
+2024-08-03 12:51:02.462 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 12:51:02.747 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 12:51:02.748 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 12:51:02.751 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 12:51:02.751 +03:00 [INF] Hosting environment: Development
+2024-08-03 12:51:02.751 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 12:51:03.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 12:51:03.585 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 285.8040ms
+2024-08-03 12:51:03.600 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 12:51:03.600 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 12:51:03.603 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.9482ms
+2024-08-03 12:51:03.620 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.4505ms
+2024-08-03 12:51:03.667 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 12:51:03.728 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 61.0154ms
+2024-08-03 13:31:36.807 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 13:31:37.301 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 13:31:37.301 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 13:31:37.304 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 13:31:37.304 +03:00 [INF] Hosting environment: Development
+2024-08-03 13:31:37.304 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 13:31:37.816 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 13:31:38.121 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 306.8342ms
+2024-08-03 13:31:38.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 13:31:38.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 13:31:38.135 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 10.8374ms
+2024-08-03 13:31:38.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.1198ms
+2024-08-03 13:31:38.209 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 13:31:38.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.0408ms
+2024-08-03 13:32:00.869 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Auth/login application/json 48
+2024-08-03 13:42:27.271 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 13:42:27.555 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 13:42:27.555 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 13:42:27.558 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 13:42:27.558 +03:00 [INF] Hosting environment: Development
+2024-08-03 13:42:27.558 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 13:42:27.966 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 13:42:28.233 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 268.9477ms
+2024-08-03 13:42:28.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 13:42:28.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 13:42:28.248 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.8572ms
+2024-08-03 13:42:28.260 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.6578ms
+2024-08-03 13:42:28.326 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 13:42:28.413 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.4751ms
+2024-08-03 13:42:47.637 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Auth/login application/json 48
+2024-08-03 13:44:08.706 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 13:44:09.053 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 13:44:09.053 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 13:44:09.058 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 13:44:09.058 +03:00 [INF] Hosting environment: Development
+2024-08-03 13:44:09.058 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 13:44:09.659 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 13:44:09.930 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 275.2885ms
+2024-08-03 13:44:09.942 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 13:44:09.942 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 13:44:09.945 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.9582ms
+2024-08-03 13:44:09.966 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.0100ms
+2024-08-03 13:44:10.017 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 13:44:10.113 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.5662ms
+2024-08-03 13:44:26.772 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Auth/login application/json 48
+2024-08-03 13:44:26.839 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.AuthController.Login (ClinicApp2)'
+2024-08-03 13:44:26.876 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ClinicApp2.Entities.AppUser) on controller ClinicApp2.Controllers.AuthController (ClinicApp2).
+2024-08-03 13:44:35.290 +03:00 [INF] Executed action ClinicApp2.Controllers.AuthController.Login (ClinicApp2) in 8409.5074ms
+2024-08-03 13:44:35.292 +03:00 [INF] Executed endpoint 'ClinicApp2.Controllers.AuthController.Login (ClinicApp2)'
+2024-08-03 13:44:35.295 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: IDX10000: The parameter 'key' cannot be a 'null' or an empty object.  (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SigningCredentials.set_Key(SecurityKey value)
+   at Microsoft.IdentityModel.Tokens.SigningCredentials..ctor(SecurityKey key, String algorithm)
+   at ClinicApp2.Services.TokenService.CreateToken(AppUser user) in D:\study\ClinicApp2\ClinicApp2\Services\TokenService.cs:line 25
+   at ClinicApp2.Controllers.AuthController.Login(AppUser appUser) in D:\study\ClinicApp2\ClinicApp2\Controllers\AuthController.cs:line 22
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 13:44:35.399 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7022/api/Auth/login application/json 48 - 500 - text/plain;+charset=utf-8 8627.0607ms
+2024-08-03 13:47:38.723 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 13:47:39.057 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 13:47:39.058 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 13:47:39.071 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 13:47:39.072 +03:00 [INF] Hosting environment: Development
+2024-08-03 13:47:39.072 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 13:47:39.577 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 13:47:39.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 285.9706ms
+2024-08-03 13:47:39.872 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 13:47:39.872 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 13:47:39.875 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.5081ms
+2024-08-03 13:47:39.891 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.2238ms
+2024-08-03 13:47:39.959 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 13:47:40.042 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.7605ms
+2024-08-03 13:47:56.710 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Auth/login application/json 48
+2024-08-03 13:47:56.773 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.AuthController.Login (ClinicApp2)'
+2024-08-03 13:47:56.804 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ClinicApp2.Entities.AppUser) on controller ClinicApp2.Controllers.AuthController (ClinicApp2).
+2024-08-03 13:48:50.439 +03:00 [INF] Executed action ClinicApp2.Controllers.AuthController.Login (ClinicApp2) in 53628.3867ms
+2024-08-03 13:48:50.440 +03:00 [INF] Executed endpoint 'ClinicApp2.Controllers.AuthController.Login (ClinicApp2)'
+2024-08-03 13:48:50.444 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at ClinicApp2.Services.TokenService.CreateToken(AppUser user) in D:\study\ClinicApp2\ClinicApp2\Services\TokenService.cs:line 25
+   at ClinicApp2.Controllers.AuthController.Login(AppUser appUser) in D:\study\ClinicApp2\ClinicApp2\Controllers\AuthController.cs:line 22
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 13:48:50.488 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7022/api/Auth/login application/json 48 - 500 - text/plain;+charset=utf-8 53777.9022ms
+2024-08-03 13:49:07.060 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Auth/login application/json 48
+2024-08-03 13:49:07.066 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.AuthController.Login (ClinicApp2)'
+2024-08-03 13:49:07.066 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ClinicApp2.Entities.AppUser) on controller ClinicApp2.Controllers.AuthController (ClinicApp2).
+2024-08-03 13:57:15.663 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 13:57:15.966 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 13:57:15.966 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 13:57:15.971 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 13:57:15.971 +03:00 [INF] Hosting environment: Development
+2024-08-03 13:57:15.971 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 13:57:16.425 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 13:57:16.698 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 275.2874ms
+2024-08-03 13:57:16.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 13:57:16.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 13:57:16.712 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 2.7088ms
+2024-08-03 13:57:16.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.9763ms
+2024-08-03 13:57:16.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 13:57:16.870 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.4521ms
+2024-08-03 13:57:31.972 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Auth/login application/json 49
+2024-08-03 13:57:32.039 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.AuthController.Authenticate (ClinicApp2)'
+2024-08-03 13:57:32.076 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(ClinicApp2.Entities.AppUser, ClinicApp2.Services.TokenService) on controller ClinicApp2.Controllers.AuthController (ClinicApp2).
+2024-08-03 13:57:32.129 +03:00 [INF] Executed action ClinicApp2.Controllers.AuthController.Authenticate (ClinicApp2) in 48.7419ms
+2024-08-03 13:57:32.132 +03:00 [INF] Executed endpoint 'ClinicApp2.Controllers.AuthController.Authenticate (ClinicApp2)'
+2024-08-03 13:57:32.137 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'ClinicApp2.Services.TokenService' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-08-03 13:57:32.171 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7022/api/Auth/login application/json 49 - 500 - text/plain;+charset=utf-8 198.6144ms
+2024-08-03 13:58:56.201 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 13:58:56.551 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 13:58:56.551 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 13:58:56.556 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 13:58:56.556 +03:00 [INF] Hosting environment: Development
+2024-08-03 13:58:56.556 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 13:58:57.026 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 13:58:57.299 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 275.3740ms
+2024-08-03 13:58:57.313 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 13:58:57.313 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 13:58:57.317 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.5969ms
+2024-08-03 13:58:57.328 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.4996ms
+2024-08-03 13:58:57.383 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 13:58:57.475 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.6900ms
+2024-08-03 13:59:09.547 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Auth/login application/json 49
+2024-08-03 13:59:09.605 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.AuthController.Authenticate (ClinicApp2)'
+2024-08-03 13:59:09.634 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(ClinicApp2.Entities.AppUser, ClinicApp2.Services.TokenService) on controller ClinicApp2.Controllers.AuthController (ClinicApp2).
+2024-08-03 16:08:07.817 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 16:08:08.304 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 16:08:08.305 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 16:08:08.310 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 16:08:08.311 +03:00 [INF] Hosting environment: Development
+2024-08-03 16:08:08.311 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 16:08:08.759 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 16:08:09.055 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 298.5937ms
+2024-08-03 16:08:09.068 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 16:08:09.068 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 16:08:09.071 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.1395ms
+2024-08-03 16:08:09.083 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.1599ms
+2024-08-03 16:08:09.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 16:08:09.258 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.7509ms
+2024-08-03 16:08:26.731 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Auth/login application/json 49
+2024-08-03 16:13:15.810 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 16:13:16.120 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 16:13:16.120 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 16:13:16.124 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 16:13:16.125 +03:00 [INF] Hosting environment: Development
+2024-08-03 16:13:16.125 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 16:13:16.738 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 16:13:17.018 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 282.0788ms
+2024-08-03 16:13:17.028 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 16:13:17.028 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 16:13:17.033 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 4.1113ms
+2024-08-03 16:13:17.044 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.6475ms
+2024-08-03 16:13:17.104 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 16:13:17.189 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.2292ms
+2024-08-03 16:13:29.681 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Auth/login application/json 49
+2024-08-03 16:13:29.773 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.AuthController.Authenticate (ClinicApp2)'
+2024-08-03 16:13:29.807 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(ClinicApp2.Entities.AppUser, ClinicApp2.Services.TokenService) on controller ClinicApp2.Controllers.AuthController (ClinicApp2).
+2024-08-03 16:31:34.400 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-03 16:31:34.717 +03:00 [INF] Now listening on: https://localhost:7022
+2024-08-03 16:31:34.718 +03:00 [INF] Now listening on: http://localhost:5022
+2024-08-03 16:31:34.721 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 16:31:34.721 +03:00 [INF] Hosting environment: Development
+2024-08-03 16:31:34.721 +03:00 [INF] Content root path: D:\study\ClinicApp2\ClinicApp2\
+2024-08-03 16:31:35.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2024-08-03 16:31:35.637 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 275.1041ms
+2024-08-03 16:31:35.641 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_vs/browserLink - -
+2024-08-03 16:31:35.643 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2024-08-03 16:31:35.650 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 7.9300ms
+2024-08-03 16:31:35.662 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.6238ms
+2024-08-03 16:31:35.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2024-08-03 16:31:35.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.8604ms
+2024-08-03 16:31:53.743 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7022/api/Auth/login application/json 49
+2024-08-03 16:31:53.814 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.AuthController.Authenticate (ClinicApp2)'
+2024-08-03 16:31:53.839 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(ClinicApp2.Entities.AppUser, TokenService) on controller ClinicApp2.Controllers.AuthController (ClinicApp2).
+2024-08-03 16:31:54.026 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-03 16:31:54.041 +03:00 [INF] Executed action ClinicApp2.Controllers.AuthController.Authenticate (ClinicApp2) in 197.8725ms
+2024-08-03 16:31:54.042 +03:00 [INF] Executed endpoint 'ClinicApp2.Controllers.AuthController.Authenticate (ClinicApp2)'
+2024-08-03 16:31:54.042 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7022/api/Auth/login application/json 49 - 200 - application/json;+charset=utf-8 299.3034ms
+2024-08-03 16:32:47.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Clinics/150 - -
+2024-08-03 16:32:47.958 +03:00 [INF] Executing endpoint 'ClinicApp2.Controllers.ClinicsController.GetClinic (ClinicApp2)'
+2024-08-03 16:32:47.965 +03:00 [INF] Route matched with {action = "GetClinic", controller = "Clinics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetClinic(Int32, System.String[]) on controller ClinicApp2.Controllers.ClinicsController (ClinicApp2).
+2024-08-03 16:32:48.098 +03:00 [INF] Getting clinic
+2024-08-03 16:32:48.313 +03:00 [INF] Getting clinic with ID: 150
+2024-08-03 16:32:48.628 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-08-03 16:32:48.628 +03:00 [INF] Executed action ClinicApp2.Controllers.ClinicsController.GetClinic (ClinicApp2) in 662.9851ms
+2024-08-03 16:32:48.629 +03:00 [INF] Executed endpoint 'ClinicApp2.Controllers.ClinicsController.GetClinic (ClinicApp2)'
+2024-08-03 16:32:48.630 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Clinics/150 - - - 200 - text/plain;+charset=utf-8 735.8245ms
+2024-08-03 16:33:11.087 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Clinics/150 - -
+2024-08-03 16:33:11.095 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-03 16:33:11.099 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-03 16:33:11.099 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Clinics/150 - - - 401 0 - 12.2007ms
